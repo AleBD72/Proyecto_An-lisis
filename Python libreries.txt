@@ -1,0 +1,74 @@
+Funciones por defecto
+
+replace().- Devuelve las cadenas con coincidencias al primer parametro reemplazandolo por el segundo 
+split().- Convierte una cadena de caracteres en lista separando palabras
+
+
+PANDAS
+Libreria que permite estructura datos con lectura y escritura de ficheros en formato CSV, Excel y bases de datos SQL.
+
+read_csv().-Devuelve un objeto del tipo DataFrame con los datos del fichero CSV 
+.index.name.-Devuelve el nombre de las fila index del DataFrame
+head().- Devuelve las n primeras filas del DataFrame df.
+info().- Devuelve información (número de filas, número de columnas, índices, tipo de las columnas y memoria usado) sobre el DataFrame
+drop().- Elimina los datos desconocidos o nulos de la serie
+.columns.- Devuelve una lista con los nombres de las columnas del DataFrame 
+dropna().- Devuelve el DataFrame que resulta de eliminar las filas que contienen algún dato desconocido o nulo
+isna().- Esta función toma un objeto escalar o similar a una matriz e indica si faltan valores
+sum().- Devuelve la suma de los datos de la serie, tipo numerico
+sort_values().-  Devuelve la serie que resulta de ordenar los valores la serie
+isnull().- Comprueba que el campo no sea nulo
+apply().- Devuelve una serie con el resultado de aplicar la función colocada entre los corchetes
+mean().- Devuelve la media de los datos de la serie, tipo numerico
+madian().- Devuelve la mediana de los datos de la serie, tipo numerico
+mode().- Devuelve la moda de los datos de la serie, tipo numerico
+iloc().- Devuelve el elemento que se encuentra en la fila y columna especificados
+
+
+
+NUMPY
+Libreria que trabaja con arrays que permite representar datos en varias dimensiones
+
+array().- Crea un array a partir de la lista o tupla.
+
+
+SEABOR
+Libreria que permite representar gráficos estadísticos para un mejor analisis de los datos.
+
+heatmap().- Grafico que muestra un mapa de calor de los valores más comunes. 
+boxplot().- Crea un gráfico de Bigotes que representa valores como el mínimo, primer cuartil, mediana, tercer cuartil y máximo
+
+
+RAMDOM
+Libreria que permite del uso de valores aleatorios.
+
+
+randint().- genera números enteros dentro del rango colocado entre los corchetes.
+
+MATPLOTLIB
+Librería de Python especializada en la creación de gráficos en dos dimensiones
+
+
+PROCESOS
+Extraccion de los datos del archivo excel colocando de index los titulos de los films
+Eliminacion de la columna Unnamed que contiene la numeracion del listado del Dataset
+Cambio de nombres en la cabecera mediante un arreglo antes creado
+Eliminacion de los registros de las columnas de Genero y Tipo que tengan valores tipo nulo
+Extracción de la mediana de la columna Duracion por medio de diagrama de bigotes para cada tipo de film
+LLenar con mediana de cada tipo en campos nulos en columna Duracion
+Extracción de la mediana de la columna Rating por medio de diagrama de bigotes para cada tipo de film
+LLenar con mediana de cada tipo en campos nulos en columna Rating
+Ejecución de la moda en la Columna Puntuacion obteniendo de todo los registro disponibles
+Obtencion del intervalo (18 - 75773) por medio de la moda
+Aplicación de la libreria random para completar los campos nulos de la columna Puntuacion dado el intervalo de la moda
+Eliminacion de los registros con datos nulos en las columnas Director, Creador, Escritor
+
+
+LINKS
+
+https://aprendeconalf.es/docencia/python/manual/pandas/
+https://aprendeconalf.es/docencia/python/manual/numpy/
+https://es.acervolima.com/mapa-de-calor-de-seaborn-una-guia-completa/
+https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/
+https://www.mclibre.org/consultar/python/lecciones/python-biblioteca-random.html
+https://aprendeconalf.es/docencia/python/manual/matplotlib/
