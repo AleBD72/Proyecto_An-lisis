@@ -48,6 +48,8 @@ randint().- genera números enteros dentro del rango colocado entre los corchete
 MATPLOTLIB
 Librería de Python especializada en la creación de gráficos en dos dimensiones
 
+scatter().- Dibuja un diagrama de puntos con las coordenadas en el eje X y en el eje Y
+
 
 PROCESOS
 Extraccion de los datos del archivo excel colocando de index los titulos de los films
@@ -62,6 +64,8 @@ Ejecución de la moda en la Columna Puntuacion obteniendo de todo los registro d
 Obtencion del intervalo (18 - 75773) por medio de la moda
 Aplicación de la libreria random para completar los campos nulos de la columna Puntuacion dado el intervalo de la moda
 Eliminacion de los registros con datos nulos en las columnas Director, Creador, Escritor
+Reemplazo de caracteres especiales en columnas Genero, Pais, idioma, elenco, director, creador, escritor
+Modificacion en campos de la columna Genero con el Genero principal
 
 
 LINKS
